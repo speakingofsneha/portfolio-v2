@@ -1,41 +1,31 @@
-ughhh clean pls 
+## content
+- [x] hero 
+- [x] about
+- [ ] case studies!! 
+- [ ] website log
+
+
+## functionality
+- [x] open external links in new tab
 - [ ] add wip label 
+- [ ] navigation between sections in case studies (similar to prev portfolio)
+- [x] add wip label 
 
-## Content
-- [x] Hero intro
-- [x] About
-- [ ] Case studies!! 
-- [ ] Link to old writing? mayb
-- [ ] Website logs 
-
-## Functionality / Code
-- [x] Refactor Content + Sidebar files
-- [ ] Update base.scss with more base vars/styling
-- [x] Fix images for deployment
-- [x] Custom domain
-- [x] Open behance links in new tab
-- [ ] Implement case-study nav
-
-## Design / Frontend
-- [x] Favicon 
-- [ ] Custom cursor/ cursor trail 
-- [x] Hover purple 
-- [x] Retire Apercu
-- [ ] Dark mode? 
-- [ ] Improve mobile-view  
-- [x] Make song rotating vinyl (and maybe play-able?)
-- [x] Remove scrollbar
-- [ ] Improve case studies ui
-    - [ ] 
+## design 
+- [x] favicon 
+- [x] hover purple 
+- [ ] dark mode? 
+- [x] mobile view for index about section
+- [x] hover for project card dark instead of light
+- [x] add more negative space above footer
+- [x] remove scrollbar
+- [ ] improve case studies ui
+    - [ ] text hierarchy
+- [ ] custom cursor/ cursor trail 
 
 
 ## Bugs / Improvements
-- [x] Fix work redirection; clicking leads to new link in the same tab 
-- [x] Check tag syncing with links etc. (all, code, design, research)
-- [x] Fix font size on landscape / standardize (especially in article view)
-- [ ] Fix footer on iPad / tablet devices
-- [x] Anchor footer to be bottom of screen on large devices
-- [ ] Images take sooooo long to load 
+- [ ] images take sooooo long to load 
 
-## Documentation
-- [ ] Finish README
+## documentation
+- [ ] finish readme

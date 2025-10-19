@@ -15,7 +15,7 @@ export default function ProjectCard({ isVideo = false, ...props }) {
       variants={props.animation}
       href={`${props.link}`}
     >
-      <div className="relative game-border group-hover:opacity-80">
+      <div className="relative game-border group-hover:brightness-75">
         <Media isVideo={isVideo} src={props.content} responsive />
 
         {props.notionLabel && (
@@ -36,7 +36,14 @@ export default function ProjectCard({ isVideo = false, ...props }) {
       </div>
 
       <div className="mt-3">
-        <h1 className={`body text-[#4B4A4A]`}>{props.title}</h1>
+        <div className="flex items-center gap-2">
+          <h1 className={`body text-[#4B4A4A]`}>{props.title}</h1>
+            {props.wip && (
+              <span className="wip-label caption">
+                wip
+              </span>
+            )}
+        </div>
         <p className="caption text-[#4B4A4A] opacity-60">{props.description}</p>
         {props.locked && (
           <p className="caption absolute text-neutral-100 rounded-md right-4 top-4 px-2 z-10 py-1 bg-gray-800 shadow-xl">

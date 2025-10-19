@@ -46,6 +46,12 @@
     @apply relative z-10 col-start-1 col-end-13 grid grid-cols-12 grid-gap;
   }
 
+  @media (max-width: 768px) {
+    .grid-layout {
+      @apply max-w-none w-full;
+    }
+  }
+
   .grid-gap {
     @apply gap-x-3 gap-y-3;
   }
@@ -160,6 +166,26 @@ body {
   margin: 0;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   background: #FFFFFF;
   color: #4B4A4A;
@@ -249,9 +275,9 @@ table {
   display: inline-block;
   padding-inline: 4px;
   border-radius: 2px;
-  background-color: rgba(152, 166, 210, 0.2); 
+  background-color: #FFE5B2; 
   width: auto;
-  color: #98A6D2;
+  color: #D86800;
 }
 
 .back-button {
@@ -282,6 +308,12 @@ table {
 
 .page-inner {
   @apply flex relative flex-col px-3 pb-8 w-full shadow-xl max-w-8xl z-[9];
+}
+
+@media (max-width: 768px) {
+  .page-inner {
+    @apply max-w-none px-4;
+  }
 }
 
 .page-inner.with-margin {

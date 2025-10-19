@@ -2,7 +2,7 @@ import GridContainer from './GridContainer';
 import React, { useState, useEffect } from 'react';
 import TextLink from './TextLink';
 import { useRouter } from 'next/router';
-const GLOBAL_SPACING = 'pb-16 pt-4';
+const GLOBAL_SPACING = 'pb-16 pt-10';
 const BREAKPOINT = 'col-start-1 col-end-13';
 
 export default function Footer() {

@@ -23,8 +23,9 @@ export default function Home() {
       <GridContainer>
         {/* ABOUT SECTION */}
         <section className="my-6 grid-layout">
-          <div className="flex flex-col col-start-1 col-end-13 gap-3 md:col-end-6">
-            <p className={`mb-4 text-[#4B4A4A] body z-1000 ml-24 w-full`}>
+          {/* About text - mobile first, then desktop */}
+          <div className="flex flex-col col-start-1 col-end-13 gap-3 md:col-start-1 md:col-end-6 order-1 md:order-1">
+            <p className={`mb-4 text-[#4B4A4A] body z-1000 ml-0 md:ml-24 w-full`}>
               <br></br> <br></br><br></br>
               Hi I&apos;m Sneha (சினேகா) <br></br> <br></br>
               I figure out new ways to solve un-met problems through cyclical research, intuitive systems and clean design.
@@ -34,10 +35,11 @@ export default function Home() {
 
             </p>
           </div>
-        {/* Kolam gif here */}
-        <div className="col-start-8 col-end-13 md:col-start-7 md:col-end-13 flex justify-center ml-[-24px] mt-[-50px]">
-          <KolamSketch />
-        </div>
+          
+          {/* Kolam sketch - mobile second, desktop right */}
+          <div className="col-start-1 col-end-13 md:col-start-8 md:col-end-13 flex justify-center mb-6 md:mb-0 md:ml-[-24px] md:mt-[-50px] order-2 md:order-2">
+            <KolamSketch />
+          </div>
         </section>
 
 

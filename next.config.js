@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'export',
+  // Remove output: 'export' for Vercel deployment
+  // output: 'export', // Only needed for static export to GitHub Pages
   trailingSlash: true,
   images: {
-    unoptimized: true,
+    // Remove unoptimized: true for Vercel (Vercel optimizes images automatically)
+    // unoptimized: true,
     formats: ['image/avif', 'image/webp'],
     domains: [
       'images.isbndb.com',

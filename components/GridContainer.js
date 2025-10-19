@@ -9,7 +9,7 @@ export default function GridContainer(props) {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.1 }}
       className={twMerge(
-        'w-full z-10 grid grid-cols-12 grid-gap relative z-10 max-w-8xl',
+        'w-full z-10 grid grid-cols-12 grid-gap relative z-10 max-w-8xl px-4 md:px-0 md:max-w-8xl max-w-none',
 
         props.footerSpacing,
         props.className
