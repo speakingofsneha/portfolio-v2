@@ -10,6 +10,7 @@
 - [ ] add wip label 
 - [ ] navigation between sections in case studies (similar to prev portfolio)
 - [x] add wip label 
+- [ ] fix about page responsiveness 
 
 ## design 
 - [x] favicon 
