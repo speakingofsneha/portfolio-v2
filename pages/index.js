@@ -26,7 +26,7 @@ export default function Home() {
           <div className="flex flex-col col-start-1 col-end-13 gap-3 md:col-end-6">
             <p className={`mb-4 text-[#4B4A4A] body z-1000 ml-24 w-full`}>
               <br></br> <br></br><br></br>
-              Hi I'm Sneha (சினேகா) <br></br> <br></br>
+              Hi I&apos;m Sneha (சினேகா) <br></br> <br></br>
               I figure out new ways to solve un-met problems through cyclical research, intuitive systems and clean design.
               You can find me on <TextLink link="https://www.are.na/sneha-vembu/channels">Are.na</TextLink>, 
               <TextLink link="https://github.com/speakingofsneha">Github</TextLink>, and 

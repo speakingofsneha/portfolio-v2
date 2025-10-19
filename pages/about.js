@@ -23,19 +23,19 @@ export default function About() {
         <div className="flex-1 flex flex-col justify-center">
           <div className="text-[#4B4A4A] body leading-relaxed">
             <p className="mb-4">
-              Hi, I'm Sneha (s-nay-huh)
+              Hi, I&apos;m Sneha (s-nay-huh)
             </p>
             
             <p className="mb-4">
               A penultimate year Interaction Design & Psychological Science student based in Sydney
-              (but madras has my 🤍). The best part about being 20 is undergoing a character metamorphosis every month. The worst part however, is how hard it is to write a bio because I'm constantly changing,
+              (but madras has my 🤍). The best part about being 20 is undergoing a character metamorphosis every month. The worst part however, is how hard it is to write a bio because I&apos;m constantly changing,
               but I think I know who I am... 
             </p>
         
             
             <p className="mb-4">
-              an artist, designer, writer, developer and a very cool person trust me on this!!!! I've worn many hats but to me, the label isn't what matters.
-              Pixels, "words", &lt;code&gt;, and their interactions are mediums through which we stumble across new perspectives; essentially if I had to explain myself and the work I do to a 10, 30 and 70 year old collectively, I draw from life and try to make things that change our stories for the better.
+              an artist, designer, writer, developer and a very cool person trust me on this!!!! I&apos;ve worn many hats but to me, the label isn&apos;t what matters.
+              Pixels, &quot;words&quot;, &lt;code&gt;, and their interactions are mediums through which we stumble across new perspectives; essentially if I had to explain myself and the work I do to a 10, 30 and 70 year old collectively, I draw from life and try to make things that change our stories for the better.
             </p>
         
           </div>
