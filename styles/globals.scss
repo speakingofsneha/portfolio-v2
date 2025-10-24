@@ -16,10 +16,14 @@
 
   .h1 {
     @apply text-[28px] lg:text-[32px] font-sans font-bold uppercase;
+    font-family: 'Inter Variable', 'Inter', sans-serif;
+    font-variation-settings: 'wght' 700;
   }
 
   .h2 {
-    @apply text-[20px] lg:text-[24px] font-display font-medium  uppercase;
+    @apply text-[24px] lg:text-[22px] font-sans font-medium mb-6 leading-[150%];
+    font-family: 'Inter Variable', 'Inter', sans-serif;
+    font-variation-settings: 'wght' 500;
   }
 
   .h3 {
@@ -31,11 +35,71 @@
   }
 
   .body {
-    @apply text-[14px] lg:text-[15px] leading-[140%] font-medium font-sans normal-case text-[#4B4A4A];
+    @apply text-[14px] lg:text-[15px] leading-[150%] font-medium font-sans normal-case text-[#4B4A4A];
+    font-family: 'Inter Variable', 'Inter', sans-serif;
+    font-variation-settings: 'wght' 500;
+  }
+
+  .case-study-body {
+    @apply text-[14px] lg:text-[15px] leading-[160%] font-medium font-sans normal-case text-[#4B4A4A] mb-6 opacity-60;
+    font-family: 'Inter Variable', 'Inter', sans-serif;
+    font-variation-settings: 'wght' 500;
+  }
+
+  .project-intro {
+    @apply text-[14px] lg:text-[15px] leading-[160%] font-medium font-sans normal-case text-[#4B4A4A] mb-6;
+    font-family: 'Inter Variable', 'Inter', sans-serif;
+    font-variation-settings: 'wght' 500;
   }
 
   .caption {
     @apply font-mono text-[11.5px] tracking-[.08em] leading-[160%] uppercase text-[#4B4A4A];
+  }
+
+  /* Inter Variable font weight utilities */
+  .inter-thin {
+    font-family: 'Inter Variable', 'Inter', sans-serif;
+    font-variation-settings: 'wght' 100;
+  }
+
+  .inter-extralight {
+    font-family: 'Inter Variable', 'Inter', sans-serif;
+    font-variation-settings: 'wght' 200;
+  }
+
+  .inter-light {
+    font-family: 'Inter Variable', 'Inter', sans-serif;
+    font-variation-settings: 'wght' 300;
+  }
+
+  .inter-regular {
+    font-family: 'Inter Variable', 'Inter', sans-serif;
+    font-variation-settings: 'wght' 400;
+  }
+
+  .inter-medium {
+    font-family: 'Inter Variable', 'Inter', sans-serif;
+    font-variation-settings: 'wght' 500;
+  }
+
+  .inter-semibold {
+    font-family: 'Inter Variable', 'Inter', sans-serif;
+    font-variation-settings: 'wght' 600;
+  }
+
+  .inter-bold {
+    font-family: 'Inter Variable', 'Inter', sans-serif;
+    font-variation-settings: 'wght' 700;
+  }
+
+  .inter-extrabold {
+    font-family: 'Inter Variable', 'Inter', sans-serif;
+    font-variation-settings: 'wght' 800;
+  }
+
+  .inter-black {
+    font-family: 'Inter Variable', 'Inter', sans-serif;
+    font-variation-settings: 'wght' 900;
   }
 
   .azuki-red {

@@ -55,7 +55,7 @@ export default function ProjectMedia(props) {
         id={props.id}
         className={`block grid overflow-hidden col-start-1 col-end-13 transition duration-300 border border-solid border-[#DDDCD9] rounded-sm
           ${background}
-          ${props.large ? 'md:col-start-1' : 'md:col-start-5'}
+          ${props.large ? 'md:col-start-1' : 'md:col-start-3'}
           ${
             props.pl || props.pr || props.pt || props.pb || (props.pAll && isImageLoaded)
               ? `border-solid border-[#DDDCD9] border`

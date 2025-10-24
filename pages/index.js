@@ -113,9 +113,8 @@ export default function Home() {
             <ProjectCard
               title="Mornings in chidam"
               description="Creative coding in p5js"
-              link="https://www.behance.net/gallery/223935267/Mornings-in-Chidam-Creative-Coding-in-p5js"
+              link="/kolam"
               content={Kolam}
-              isExternal={true}
             />
           </div>
         </div>

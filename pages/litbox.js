@@ -55,7 +55,7 @@ export default function Brain() {
     <motion.main className="min-h-[70vh]">
       <GridContainer>
         <ProjectHero content="/project-covers/litbox.png" />
-        <ProjectTitle role="Interaction Design, Multimodal, Physical Prototyping">Adressing the literacy crisis in australia</ProjectTitle>
+        <ProjectTitle role="Interaction Design, Multimodal, Physical Prototyping">Literacy crisis in au</ProjectTitle>
         <ProjectBody col={2}>
         As part of the <a href="https://www.sydney.edu.au/units/DECO2014" target="_blank" rel="noopener noreferrer">User Experience Design Studio</a>, our team explored the brief &quot;relearn the learning&quot; by focusing on Australia&apos;s literacy crisis. We used the double diamond framework to take a human-centred approach, especially given the sensitivity of the issue.
         </ProjectBody>

@@ -1,3 +1,4 @@
+import '@fontsource-variable/inter';
 import '../styles/globals.scss';
 import Page from '../components/Page';
 

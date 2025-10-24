@@ -43,9 +43,9 @@ export default function Brain() {
     <motion.main className="min-h-[70vh]">
       <GridContainer>
         <ProjectHero content="/project-covers/olympal.png" />
-        <ProjectTitle role="Interaction design, multimodal">Shared sporting experiences for AR</ProjectTitle>
+        <ProjectTitle role="Interaction design, multimodal">Shared sporting experiences <br></br>for AR</ProjectTitle>
         <ProjectBody col={2}>
-        Traditional broadcasts of the Olympics no longer meet the evolving expectations of an audience that values control, connection, and immersive participation.  
+        Traditional broadcasts of the Olympics no longer meet the evolving expectations of an audience that values control, connection, and immersive participation.  <br></br><br></br>
         To address this, we designed an augmented reality viewing experience that adapts to a user’s unique preferences to replicate the real time atmosphere, energy and shared experiences they create when watching the games in person. 
         </ProjectBody>
         <ProjectDetails

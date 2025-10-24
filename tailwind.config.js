@@ -4,8 +4,8 @@ module.exports = {
     fontFamily: {
       display: ['offbit', 'ui-sans-serif'],
       sans: [
-        'neue-haas-unica',
-        'IBM Plex Sans',
+        'Inter Variable',
+        'Inter',
         'ui-sans-serif',
         'system-ui',
         '-apple-system',

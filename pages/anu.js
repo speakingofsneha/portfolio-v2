@@ -58,26 +58,33 @@ export default function Brain() {
         
        {/* <ProjectMedia noShadow src={slide1}></ProjectMedia> */}
        <ProjectMedia noShadow src={slide1}></ProjectMedia>
+        <Divider /> <Spacer /> <Spacer /> <Divider />
 
-          {/*<ProjectBody id="context" title="Design education prioritises obedience over critical thinking." col={1}>
+        <ProjectBody id="context" title="Design education prioritises obedience over critical thinking." col={1}>
           Like most design schools, usyd hands a template for writing case studies- a predictable recipe of surveys, interviews, 
           wireframes, and testing, ending in a “polished” mockup that pretends to solve the problem. But real design work isn’t linear; 
           it’s cyclical, messy, and full of small, thoughtful pivots. 
-        </ProjectBody> */}
+        </ProjectBody>
         
         <ProjectMedia noShadow src={slide2}></ProjectMedia>
         <ProjectMedia noShadow src={slide3}></ProjectMedia>
-        {/* <Divider /> <Spacer /> <Spacer /> */}
+        <Divider /> <Spacer /> <Spacer /> 
 
    
-        {/* <ProjectBody id="problem" title="Depth and insight rarely matter as much as following the rubric" col={1}>
+        <ProjectBody id="problem" title="Depth and insight rarely matter as much as following the rubric" col={1}>
         Our rubrics reward steps, not thinking- four iterations? that’s an high disction. Three? distinction. So as students, we adapt- we reverse-engineer from an HD and stop                  designing for the problem, and start designing for the rubric. Then we graduate and find out this cookie cutter project lands nowhere because hiring managers have seen the exact thing hundreds of times that week.
-        </ProjectBody> */}
+        </ProjectBody>
         <ProjectMedia noShadow src={slide4}></ProjectMedia>
         
-        {/* <Divider /> <Spacer /> <Spacer />   <Spacer />    <Spacer /> <Spacer />  <Divider /> */}
-        {/* <ProjectBody id="opportunity" title="So I started asking myself... how do I turn all this school work, these long, identical reports, into something that actually reflects how I think and design?" col={1}>
-        </ProjectBody> */}
+        <Divider />
+        <Spacer />
+        <Spacer />
+        <Spacer />
+        <Spacer />
+        <Spacer />
+        <Divider />
+        <ProjectBody id="opportunity" title="So I started asking myself... how do I turn all this school work, these long, identical reports, into something that actually reflects how I think and design?" col={1}>
+        </ProjectBody>
 
 
         <ProjectMedia noShadow src={slide5}></ProjectMedia>
@@ -85,12 +92,12 @@ export default function Brain() {
         <ProjectMedia noShadow src={slide7}></ProjectMedia>
         <ProjectMedia noShadow src={slide8}></ProjectMedia>
         
-
         
         <ProjectMedia noShadow src={slide9}></ProjectMedia>
         <ProjectMedia noShadow src={slide10}></ProjectMedia>
         <ProjectMedia noShadow src={slide11}></ProjectMedia>
         <ProjectMedia noShadow src={slide12}></ProjectMedia>
+        
       </GridContainer>
     </motion.main>
   );

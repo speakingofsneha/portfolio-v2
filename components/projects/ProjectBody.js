@@ -11,12 +11,12 @@ export default function BodyText(props) {
       className={twMerge(
         'grid-gap col-start-1 col-end-13 mb-2 text-[#4B4A4A]',
         props.col == 2
-          ? 'md:columns-2 md:col-start-5 md:col-end-13'
-          : 'md:col-start-5 md:col-end-13 lg:col-end-12'
+          ? 'md:columns-2 md:col-start-3 md:col-end-13'
+          : 'md:col-start-3 md:col-end-12 lg:col-end-12'
       )}
     >
-      {props.title !== undefined && <h2 className="mt-4 mb-2 body">{props.title}</h2>}
-      <p className={`${props.caption ? 'opacity-60 caption' : 'body'}`}>{props.children}</p>
+      {props.title !== undefined && <h2 className="h2">{props.title}</h2>}
+      <p className={`${props.caption ? 'opacity-60 caption' : props.title ? 'case-study-body' : 'project-intro'}`}>{props.children}</p>
     </div>
   );
 }
