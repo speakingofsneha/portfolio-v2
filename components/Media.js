@@ -47,7 +47,7 @@ export default function ProjectMedia(props) {
     } else {
       setBackground(bgColors[path]);
     }
-  }, [path]);
+  }, [path, props.dark]);
 
   return (
     <div className={`${props.className} relative w-full overflow-hidden rounded-sm`}>

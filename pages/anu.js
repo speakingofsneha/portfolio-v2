@@ -50,7 +50,7 @@ export default function Brain() {
         subtasks, and plenty of integrations. But no matter how polished they looked, I never stuck with any of them for long. <br></br>
         For a while, I assumed the problem was me. After all, these apps get great reviews and are widely recommended.
 
-        Then I read Norman's design of everyday things and something clicked..
+        Then I read Norman&apos;s design of everyday things and something clicked..
         </ProjectBody>
         <ProjectDetails
           role={['Design Engineering']}
