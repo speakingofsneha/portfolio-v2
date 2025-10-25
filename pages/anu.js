@@ -12,18 +12,18 @@ import Spacer from '../components/projects/Spacer';
 import Divider from '../components/projects/Divider';
 
 // images
-import slide1 from '../public/work/reframe/slide1.png';
-import slide2 from '../public/work/reframe/slide2.png';
-import slide3 from '../public/work/reframe/slide3.png';
-import slide4 from '../public/work/reframe/slide4.png';
-import slide5 from '../public/work/reframe/slide5.png';
-import slide6 from '../public/work/reframe/slide6.png';
-import slide7 from '../public/work/reframe/slide7.png';
-import slide8 from '../public/work/reframe/slide8.png';
-import slide9 from '../public/work/reframe/slide9.png';
-import slide10 from '../public/work/reframe/slide10.png';
-import slide11 from '../public/work/reframe/slide11.png';
-import slide12 from '../public/work/reframe/slide12.png';
+import slide1 from '../public/work/anu/slide1.png';
+import slide2 from '../public/work/anu/slide2.png';
+import slide3 from '../public/work/anu/slide3.png';
+import slide4 from '../public/work/anu/slide4.png';
+import slide5 from '../public/work/anu/slide5.png';
+import slide6 from '../public/work/anu/slide6.png';
+import slide7 from '../public/work/anu/slide7.png';
+import slide8 from '../public/work/anu/slide8.png';
+import slide9 from '../public/work/anu/slide9.png';
+import slide10 from '../public/work/anu/slide10.png';
+import slide11 from '../public/work/anu/slide11.png';
+import slide12 from '../public/work/anu/slide12.png';
 
 
 
@@ -43,56 +43,30 @@ export default function Brain() {
   return (
     <motion.main className="min-h-[70vh]">
       <GridContainer>
-        <ProjectHero content="/project-covers/reframe.png" />
-        <ProjectTitle role="Interaction design,<br>AI/ML">Reframe</ProjectTitle>
+        <ProjectHero content="/project-covers/anu.png" />
+        <ProjectTitle role="Interaction design,<br>Front-end dev">Reframe</ProjectTitle>
         <ProjectBody col={2}>
-        Good case studies are a combination of narrative, information design and personality. But not everyone has the time, patience or skills to do that, especially after working on a long, gruelling project. <br></br>
-        Introducing Reframe, an intelligent system that takes care of presentation, so you can focus on substance.
+        I’ve tried many task management apps over the years. At first, they all seemed impressive—sleek interfaces, shortcuts, tags, 
+        subtasks, and plenty of integrations. But no matter how polished they looked, I never stuck with any of them for long. <br></br>
+        For a while, I assumed the problem was me. After all, these apps get great reviews and are widely recommended.
+
+        Then I read Norman's design of everyday things and something clicked..
         </ProjectBody>
         <ProjectDetails
           role={['Design Engineering']}
-          collaborators={['Alyssa Bui']}
-          duration={['Spring 2025']}
-          tools={['Figma', 'React', 'Cursor']}
+          collaborators={['just me :(']}
+          duration={['Fall 2024']}
+          tools={['Figma', 'Front-end dev']}
         />
         
-       {/* <ProjectMedia noShadow src={slide1}></ProjectMedia> */}
-       <ProjectMedia noShadow src={slide1}></ProjectMedia>
-        <Divider /> <Spacer /> <Spacer /> <Divider />
-
-        <ProjectBody id="context" title="Design education prioritises obedience over critical thinking." col={1}>
-          Like most design schools, usyd hands a template for writing case studies- a predictable recipe of surveys, interviews, 
-          wireframes, and testing, ending in a “polished” mockup that pretends to solve the problem. But real design work isn’t linear; 
-          it’s cyclical, messy, and full of small, thoughtful pivots. 
-        </ProjectBody>
-        
+        <ProjectMedia noShadow src={slide1}></ProjectMedia>
         <ProjectMedia noShadow src={slide2}></ProjectMedia>
         <ProjectMedia noShadow src={slide3}></ProjectMedia>
-        <Divider /> <Spacer /> <Spacer /> 
-
-   
-        <ProjectBody id="problem" title="Depth and insight rarely matter as much as following the rubric" col={1}>
-        Our rubrics reward steps, not thinking- four iterations? that’s an high disction. Three? distinction. So as students, we adapt- we reverse-engineer from an HD and stop                  designing for the problem, and start designing for the rubric. Then we graduate and find out this cookie cutter project lands nowhere because hiring managers have seen the exact thing hundreds of times that week.
-        </ProjectBody>
         <ProjectMedia noShadow src={slide4}></ProjectMedia>
-        
-        <Divider />
-        <Spacer />
-        <Spacer />
-        <Spacer />
-        <Spacer />
-        <Spacer />
-        <Divider />
-        <ProjectBody id="opportunity" title="So I started asking myself... how do I turn all this school work, these long, identical reports, into something that actually reflects how I think and design?" col={1}>
-        </ProjectBody>
-
-
         <ProjectMedia noShadow src={slide5}></ProjectMedia>
         <ProjectMedia noShadow src={slide6}></ProjectMedia>
         <ProjectMedia noShadow src={slide7}></ProjectMedia>
         <ProjectMedia noShadow src={slide8}></ProjectMedia>
-        
-        
         <ProjectMedia noShadow src={slide9}></ProjectMedia>
         <ProjectMedia noShadow src={slide10}></ProjectMedia>
         <ProjectMedia noShadow src={slide11}></ProjectMedia>

@@ -40,7 +40,7 @@ export default function Footer() {
           </p>
         </span>
         <div className={`flex flex-col space-y-1 ${BREAKPOINT} md:col-start-9`}>
-          <p>{`Let's build something together.`}</p>
+          <p>{`I love emails`}</p>
           <span>
             <TextLink super={5} link="mailto:jxsephz@gmail.com">{`snku6524@uni.sydney.edu.au`}</TextLink>
           </span>

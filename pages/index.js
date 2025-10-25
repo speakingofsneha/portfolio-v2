@@ -48,7 +48,7 @@ export default function Home() {
 
           <div className={`flex flex-col ${gapValue}`}>
             <ProjectCard
-              title="Turning messy into meaning"
+              title="Does your work reflect who you are?"
               description="Interaction Design, AI/ML"
               link="/reframe"
               content={Reframe}
@@ -57,9 +57,8 @@ export default function Home() {
             <ProjectCard
               title="No-nonsense task management"
               description="Web dev"
-              link="https://speakingofsneha.github.io/anu/#/"
+              link="/anu"
               content={Anu}
-              isExternal={true}
             />
             <ProjectCard
               title="Miscellaneous art/design pieces"

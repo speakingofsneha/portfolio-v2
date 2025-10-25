@@ -26,14 +26,14 @@ export default function About() {
           {/* Text */}
           <div className="flex flex-col justify-center lg:flex-1 order-2 lg:order-2 w-full">
             <div className="text-[#4B4A4A] body leading-relaxed text-left">
-              <p className="mb-2">
+              <h2 className="mb-2 ">
                 Hi, I&apos;m Sneha (s-nay-huh)
-              </p>
+              </h2>
               
               <p className="mb-2">
                 A penultimate year Interaction Design & Psychological Science student based in Sydney
-                (but madras has my 🤍). The best part about being 20 is undergoing a character metamorphosis every month. The worst part however, is how hard it is to write a bio because I&apos;m constantly changing,
-                but I think I know who I am... 
+                (but madras has my 🤍). The best part about being 20 is undergoing a character metamorphosis every month. 
+                The worst part however, is how hard it is to write a bio because I&apos;m constantly changing, but I think I know who I am... 
               </p>
           
               
