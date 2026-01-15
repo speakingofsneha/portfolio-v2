@@ -26,21 +26,14 @@ export default function About() {
           {/* Text */}
           <div className="flex flex-col justify-center lg:flex-1 order-2 lg:order-2 w-full">
             <div className="text-[#4B4A4A] body leading-relaxed text-left">
-              <h2 className="mb-2 ">
-                Hi, I&apos;m Sneha (s-nay-huh)
-              </h2>
-              
               <p className="mb-2">
-                A penultimate year Interaction Design & Psychological Science student based in Sydney
-                (but madras has my 🤍). The best part about being 20 is undergoing a character metamorphosis every month. 
-                The worst part however, is how hard it is to write a bio because I&apos;m constantly changing, but I think I know who I am... 
+                The best part about being 21 is undergoing a character metamorphosis every month. 
+                The worst part, however, is how hard it is to write a bio because I&apos;m constantly changing, but I think I know who I am... 
+                <br></br><br></br>
+                an artist, designer, writer, developer, entrepreneur, and a very cool person trust me on this!!!! I&apos;ve worn many hats but to me, the label isn&apos;t what matters.
+                Pixels, &quot;words&quot;, &lt;code&gt;, and their interactions are mediums through which we stumble across new perspectives; essentially if I had to explain myself and the work I do to a 10, 30 and 70 year old collectively, I draw from life and try to make things that change our lives for the better.
               </p>
-          
-              
-              <p className="mb-2">
-                an artist, designer, writer, developer and a very cool person trust me on this!!!! I&apos;ve worn many hats but to me, the label isn&apos;t what matters.
-                Pixels, &quot;words&quot;, &lt;code&gt;, and their interactions are mediums through which we stumble across new perspectives; essentially if I had to explain myself and the work I do to a 10, 30 and 70 year old collectively, I draw from life and try to make things that change our stories for the better.
-              </p>
+        
           
             </div>
           </div>

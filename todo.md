@@ -27,6 +27,7 @@
     - [ ] text hierarchy
 - [ ] custom cursor/ cursor trail 
 - [ ] project intro similar to https://www.marco.fyi/work/dotos ?
+- [x] change inter to untitled sans 
 
 
 ## Bugs / Improvements

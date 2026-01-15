@@ -4,8 +4,7 @@ module.exports = {
     fontFamily: {
       display: ['offbit', 'ui-sans-serif'],
       sans: [
-        'Inter Variable',
-        'Inter',
+        'Untitled Sans Regular',
         'ui-sans-serif',
         'system-ui',
         '-apple-system',

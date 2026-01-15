@@ -43,7 +43,7 @@ export default function ProjectDetails(props) {
       </div>
       {props.tools && (
         <div className="col-start-7 col-end-13 mb-8 md:col-start-12 md:col-end-13">
-          <p className="text-[#4B4A4A]/40 caption">with</p>
+          <p className="text-[#4B4A4A]/40 caption">using</p>
           {tools}
         </div>
       )}

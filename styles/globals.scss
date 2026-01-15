@@ -16,14 +16,12 @@
 
   .h1 {
     @apply text-[28px] lg:text-[32px] font-sans font-bold uppercase;
-    font-family: 'Inter Variable', 'Inter', sans-serif;
-    font-variation-settings: 'wght' 700;
+    font-family: 'Untitled Sans Regular', sans-serif;
   }
 
   .h2 {
     @apply text-[24px] lg:text-[22px] font-sans font-medium mb-6 leading-[150%];
-    font-family: 'Inter Variable', 'Inter', sans-serif;
-    font-variation-settings: 'wght' 500;
+    font-family: 'Untitled Sans Regular', sans-serif;
   }
 
   .h3 {
@@ -35,71 +33,68 @@
   }
 
   .body {
-    @apply text-[14px] lg:text-[15px] leading-[150%] font-medium font-sans normal-case text-[#4B4A4A];
-    font-family: 'Inter Variable', 'Inter', sans-serif;
-    font-variation-settings: 'wght' 500;
+    @apply text-[16px] leading-[24px] font-medium font-sans normal-case text-[#212121];
+    font-family: 'Untitled Sans Regular', sans-serif;
   }
 
   .case-study-body {
-    @apply text-[14px] lg:text-[15px] leading-[160%] font-medium font-sans normal-case text-[#4B4A4A] mb-6 opacity-60;
-    font-family: 'Inter Variable', 'Inter', sans-serif;
-    font-variation-settings: 'wght' 500;
+    @apply text-[16px] leading-[24px] font-medium font-sans normal-case text-[#212121] mb-6 opacity-60;
+    font-family: 'Untitled Sans Regular', sans-serif;
   }
 
   .project-intro {
-    @apply text-[14px] lg:text-[15px] leading-[160%] font-medium font-sans normal-case text-[#4B4A4A] mb-6;
-    font-family: 'Inter Variable', 'Inter', sans-serif;
-    font-variation-settings: 'wght' 500;
+    @apply text-[16px] leading-[24px] font-medium font-sans normal-case text-[#212121] mb-6;
+    font-family: 'Untitled Sans Regular', sans-serif;
   }
 
   .caption {
     @apply font-mono text-[11.5px] tracking-[.08em] leading-[160%] uppercase text-[#4B4A4A];
   }
 
-  /* Inter Variable font weight utilities */
-  .inter-thin {
-    font-family: 'Inter Variable', 'Inter', sans-serif;
-    font-variation-settings: 'wght' 100;
+  /* Untitled Sans Regular font utilities */
+  .untitled-sans-thin {
+    font-family: 'Untitled Sans Regular', sans-serif;
+    font-weight: 100;
   }
 
-  .inter-extralight {
-    font-family: 'Inter Variable', 'Inter', sans-serif;
-    font-variation-settings: 'wght' 200;
+  .untitled-sans-extralight {
+    font-family: 'Untitled Sans Regular', sans-serif;
+    font-weight: 200;
   }
 
-  .inter-light {
-    font-family: 'Inter Variable', 'Inter', sans-serif;
-    font-variation-settings: 'wght' 300;
+  .untitled-sans-light {
+    font-family: 'Untitled Sans Regular', sans-serif;
+    font-weight: 300;
   }
 
-  .inter-regular {
-    font-family: 'Inter Variable', 'Inter', sans-serif;
-    font-variation-settings: 'wght' 400;
+  .untitled-sans-regular {
+    font-family: 'Untitled Sans Regular', sans-serif;
+    font-weight: 400;
   }
 
-  .inter-medium {
-    font-family: 'Inter Variable', 'Inter', sans-serif;
-    font-variation-settings: 'wght' 500;
+  .untitled-sans-medium {
+    font-family: 'Untitled Sans Regular', sans-serif;
+    font-weight: 500;
   }
 
-  .inter-semibold {
-    font-family: 'Inter Variable', 'Inter', sans-serif;
-    font-variation-settings: 'wght' 600;
+  .untitled-sans-semibold {
+    font-family: 'Untitled Sans Regular', sans-serif;
+    font-weight: 600;
   }
 
-  .inter-bold {
-    font-family: 'Inter Variable', 'Inter', sans-serif;
-    font-variation-settings: 'wght' 700;
+  .untitled-sans-bold {
+    font-family: 'Untitled Sans Regular', sans-serif;
+    font-weight: 700;
   }
 
-  .inter-extrabold {
-    font-family: 'Inter Variable', 'Inter', sans-serif;
-    font-variation-settings: 'wght' 800;
+  .untitled-sans-extrabold {
+    font-family: 'Untitled Sans Regular', sans-serif;
+    font-weight: 800;
   }
 
-  .inter-black {
-    font-family: 'Inter Variable', 'Inter', sans-serif;
-    font-variation-settings: 'wght' 900;
+  .untitled-sans-black {
+    font-family: 'Untitled Sans Regular', sans-serif;
+    font-weight: 900;
   }
 
   .azuki-red {
@@ -129,6 +124,16 @@
   font-family: 'OffBit';
   src: url('/fonts/OffBitTrial-101Bold.otf') format('truetype');
   font-weight: 400;
+}
+
+@font-face {
+  font-family: "Untitled Sans Regular";
+  src: url("https://db.onlinewebfonts.com/t/1a3681e2cd615bd458b68dce439102a4.eot");
+  src: url("https://db.onlinewebfonts.com/t/1a3681e2cd615bd458b68dce439102a4.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/1a3681e2cd615bd458b68dce439102a4.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/1a3681e2cd615bd458b68dce439102a4.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/1a3681e2cd615bd458b68dce439102a4.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/1a3681e2cd615bd458b68dce439102a4.svg#Untitled Sans Regular")format("svg");
 }
 
 // @media (hover: hover) {
